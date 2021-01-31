@@ -1,0 +1,115 @@
+@media only screen and (min-width: 760px){
+    ul{
+        width: 100%;
+        height: 100px;
+    }
+ }
+ .search-bar{
+     float: left;
+     width: fit-content;
+     font-size : 32px;
+ }
+ .search-button{
+   width: 2.5em;
+   height: 2em;
+   background-color: #dde00c;
+   border-radius: 2px;
+   padding: 5px;
+   margin: 3px;
+ }
+ .logo-adjust{
+     font-size: 40px;
+     background-color: #dfb018;
+     padding: 55px;
+     margin: -30px;
+ }
+ .para-font{
+     font-size: 30px;
+     float: none;
+     text-align: center;
+ }
+ /*Sets up heading above navigation bar*/
+ h1{
+     text-align: center;
+     font: 50%;
+ }
+ /*Sets up background for website*/
+ html{
+     background-color: #e4dfd4;
+     color:#5936f3;
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: sans-serif;
+ 
+ }
+ /*Sets up main nested article, h3, aside,and nav elements */
+ main article, main h3,main aside,main nav{
+     text-align: center;
+     font: 25px sans-serif;
+ }
+ h1{
+     font-size: 35px;
+ }
+ /*Sets up button configurations*/
+ button{
+     block-size: 50px;
+     width: 100px;
+     font-size: 20px;
+     border-radius: 10px;
+ }
+ button:hover{
+     background-color: #0088ce;
+ }
+ 
+ /*=====CSS for Dropdown Menus=====*/
+ 
+ ul {
+     list-style-type:none;
+     margin: -10;
+     padding: 20;
+     overflow: hidden;
+     background-color: rgb(201, 132, 42);
+ }
+ 
+ li {
+     font-size: x-large;
+     float: left;
+     padding: 10px;
+     margin: 30px;
+ }
+ 
+ li a, .dropbtn {
+     display:block;
+     color: rgb(240, 235, 235);
+     text-align: center;
+     text-decoration: none;
+ }
+ 
+ li a:hover, .dropdown:hover .dropbtn {
+     background-color: rgba(218, 167, 50, 0.9);
+ }
+ 
+ li.dropdown {
+     display: inline-block;
+ }
+ 
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 200px;
+     box-shadow: 0px 8px 16px 0px rgba(223, 214, 214, 0.2);
+ }
+ 
+ .dropdown-content a {
+     color: rgb(15, 14, 14);
+     padding: 12px 16px;
+     text-decoration: none;
+     text-align: left;
+ }
+ 
+ .dropdown-content a:hover {background-color: #dfb018}
+ 
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
